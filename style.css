@@ -411,39 +411,56 @@ form {
   @media (max-width: 480px) {
     header h1 {
       font-size: 1.3em; /* Reduzir ainda mais o título em telas pequenas */
-    }
+    }}
+
+    @media (max-width: 480px) {
   
     .navbar a {
       font-size: 0.9em; /* Reduzir ainda mais o tamanho da fonte dos links */
       padding: 8px 8px;
-    }
+    }}
+
+    @media (max-width: 480px) {
   
     .hero h1 {
       font-size: 1.8em; /* Ajustar o tamanho do título principal */
-    }
+    }}
+
+
+    @media (max-width: 480px) {
   
     .hero p {
       font-size: 1em; /* Ajustar o tamanho do parágrafo */
-    }
+    }}
+
+    @media (max-width: 480px) {
   
     .benefits-grid,
     .testimonials .benefits-grid {
       gap: 15px; /* Reduzir o espaçamento entre os itens */
-    }
+    }}
+
+    @media (max-width: 480px) {
   
     .benefit h3 {
       font-size: 1.1em; /* Reduzir o tamanho da fonte dos títulos dos benefícios */
-    }
+    }}
+
+    @media (max-width: 480px) {
   
     .formulario {
       gap: 10px; /* Reduzir o espaçamento no formulário */
-    }
+    }}
+
+    @media (max-width: 480px) {
   
     #bt {
       font-size: 1em; /* Reduzir o tamanho da fonte do botão */
       padding: 10px 20px;
     }
   }
+
+  @media (max-width: 480px) {
     .video-container {
       display: flex;
       flex-direction: column;
@@ -451,18 +468,24 @@ form {
       max-height: 100%;
       width: 100%;
       height: auto;
-    }
+    }}
+
+
+    @media (max-width: 480px) {
   
     .container #vd{
         width: 100%;
         height:900px;
-    }
+    }}
 
     header{
        visibility: hidden;
        display: none;
     }
 
+
+    @media (max-width: 480px) {
+
     .video-container p{
         width: 90%;
-    }
+    }}
